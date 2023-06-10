@@ -1,0 +1,223 @@
+/* main page */
+
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+.header{
+    min-height: 100vh;
+    width: 100wh;
+    background-position:center;
+    background-image: linear-gradient(rgba(4,9,30,0,7), rgba(4,9,30,0,7)),url(https://upload.wikimedia.org/wikipedia/commons/d/d6/Beautiful_Northern_Areas_Pakistan.jpg);
+    background-size: cover;
+    position: relative;
+
+}
+.main{
+        background-image: url(./main\ img.jpg);
+    }
+        
+nav{
+    display: flex;
+    padding:4% 3%;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+.links{
+    flex: 1;
+    text-align: right;
+}
+.links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    
+    }
+.links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.links ul li ::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin:auto;
+    transition:0.2s;
+}
+.links ul li :hover::after{
+    width: 100%;
+  
+}
+.text{
+ width: 90%;
+ color: #fff;
+ position: absolute;
+ top: 55%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ text-align:center;
+}
+.text h1 {
+    font-size: 65px;
+    font-style: normal;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.text p {
+    margin: 10px 0 40px;
+    font-size: 18px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding:12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor:pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.button:hover{
+    border:1px solid red;
+    background:red;
+    transition:0.5s;
+}
+@media(max-width:768px){
+    .text h1{
+        font-size: 20px;}
+    }
+.hp{
+    margin: 85px;
+    padding-left:350px;
+    font-family:cursive ;
+    
+} 
+.hp h1 {
+    margin-left:46px ;
+    font-family: cursive;
+    font-size: 35px;
+    
+}
+.hp p{
+    margin-left:20px;
+    margin-top: 15px;
+}
+.places{
+    padding-left:85px;
+    padding-right: 85px;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.places h3 {
+    margin-left: 30%;
+    font-family: cursive;
+    font-size: 20px;
+}
+.places p{
+    font-family: cursive;
+}
+.place{
+    flex-basis: 32%;
+    background: #f9f1f1;
+    border-radius: 20px;
+    margin-bottom: 0%;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.links a {
+    text-decoration: none;
+}
+h3 p {
+
+    text-align: center;
+    font-weight: 600;
+    margin: 10px;
+
+}
+.p{
+    text-align: center;
+}
+.place:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.images {
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.images .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.images img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.imgs{
+    margin: 85px;
+    padding-left:400px;
+    font-family:cursive ;
+    
+} 
+.imgs h1 {
+    margin-left:34px ;
+    font-family: cursive;
+    font-size: 35px; 
+}
+.imgs p{
+    margin-left:8px;
+    margin-top: 15px;
+}
+.reviews {
+    margin-top: 2%;
+    text-align: center;
+    font-family: cursive;
+}
+
+.reviews h1 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.review {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.review h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.review p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+

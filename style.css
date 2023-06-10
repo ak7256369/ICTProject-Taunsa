@@ -1,0 +1,252 @@
+/* contact us and about us page*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .about-us-section {
+    position: relative;
+    height: 70vh;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/d/d6/Beautiful_Northern_Areas_Pakistan.jpg) center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-us-text {
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .content-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+  }
+  
+  .image-container {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .second-image {
+    margin-right: 80px;
+    width: 100%;
+    height: 550px;
+  }
+  
+  .content-section-text {
+    flex-basis: 50%;
+  }
+  
+  .content-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .content-section p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  .h1{
+    margin-left: 200px;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    background-image: url('beautiful-background-picture.jpg');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header h1 {
+    font-size: 48px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+  
+  .container {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .contact-form {
+    flex: 1;
+    max-width: 400px;
+    margin-right: 40px;
+  }
+  
+  .contact-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info-item img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .map {
+    flex: 1;
+    height: 400px;
+    margin-top: 20px;
+  }
+  
+  .content {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  .form-group textarea {
+    height: 100px;
+  }
+  
+  .form-group button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-image: url(https://i.pinimg.com/originals/1f/3f/8f/1f3f8f1b0c4efe06239fb3d6809f1235.jpg);
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 48px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.container {
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-form {
+  flex: 1;
+  max-width: 400px;
+  margin-right: 40px;
+  margin-right: 100px;
+}
+
+.contact-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.contact-info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contact-info-item img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.map {
+  flex: 1;
+  height: 400px;
+  margin-top: 20px;
+}
+
+.content {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.form-group textarea {
+  height: 100px;
+}
+
+.form-group button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+  
